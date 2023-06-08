@@ -83,7 +83,7 @@ export default function Home() {
               />
               <strong>Raquel dos Teclados </strong>
               <button className="w-12 h-12 flex items-center justify-center p-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play  fill="bg-black" />
               </button>
             </a>
 
@@ -99,7 +99,7 @@ export default function Home() {
               />
               <strong>Dudu Nobre</strong>
               <button className="w-12 h-12 flex items-center justify-center p-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -114,7 +114,7 @@ export default function Home() {
               />
               <strong>Maiara e Maraísa</strong>
               <button className="w-12 h-12 flex items-center justify-center p-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -129,7 +129,7 @@ export default function Home() {
               />
               <strong>Marilia Mendonça</strong>
               <button className="w-12 h-12 flex items-center justify-center p-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black" />
               </button>
             </a>
             <a
@@ -144,7 +144,7 @@ export default function Home() {
               />
               <strong>Zeca Pagodinho</strong>
               <button className="w-12 h-12 flex items-center justify-center p-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
             <a
@@ -159,7 +159,7 @@ export default function Home() {
               />
               <strong>Zé Neto e Cristiano</strong>
               <button className="w-12 h-12 flex items-center justify-center p-1 rounded-full bg-green-400 text-black ml-auto mr-8 invisible group-hover:visible">
-                <Play />
+                <Play fill="bg-black"/>
               </button>
             </a>
           </div>
@@ -262,7 +262,7 @@ export default function Home() {
             <SkipBack size={20} className="text-zinc-200" />
 
             <button className="w-10 h-10 flex items-center justify-center p-1 rounded-full bg-white text-black">
-              <Play />
+              <Play fill="bg-black" />
             </button>
 
             <SkipForward size={20} className="text-zinc-200" />
